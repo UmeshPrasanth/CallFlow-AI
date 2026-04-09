@@ -1,0 +1,24 @@
+package com.umesh.telecalling.model;
+import jakarta.persistence.*;
+
+@Entity
+public class Campaign {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String name;
+
+    public Campaign() {}
+
+    public Campaign(String name) {
+        this.name = name;
+    }
+
+    public Long getId() { return id; }
+
+    public String getName() { return name; }
+
+    public void setName(String name) { this.name = name; }
+}
