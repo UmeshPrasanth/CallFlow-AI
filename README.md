@@ -3,10 +3,6 @@
 Automated Marketing & Customer Interaction System using Conversational AI
 
 
-
-
-
-
 📌 Problem Statement
 
 Traditional tele-calling systems are:
@@ -52,6 +48,8 @@ Feature	Description
 🐬 MySQL — Stores users, campaigns, call logs, analytics
 ☎️ Telephony Integration
 Cloud APIs (e.g., Twilio / similar services)
+
+
 📂 Project Structure
 AI-TeleCalling-Agent/
 ├── backend/
@@ -68,6 +66,8 @@ AI-TeleCalling-Agent/
 │   └── App.js
 │
 └── README.md
+
+
 ⚙️ Installation & Setup
 🔧 Prerequisites
 Java 17+
@@ -81,7 +81,6 @@ cd ai-telecalling-agent
 cd backend
 mvn clean install
 mvn spring-boot:run
-
 Runs at:
 👉 http://localhost:8080
 
@@ -94,6 +93,7 @@ spring.datasource.url=jdbc:mysql://localhost:3306/telecalling_ai
 spring.datasource.username=root
 spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
+
 4️⃣ Frontend Setup
 cd frontend
 npm install
@@ -175,4 +175,4 @@ Apache 2.0 License
 
 🤝 Team
 
-Your Hackathon Team Name 🚀
+TEAM APEX 🚀
